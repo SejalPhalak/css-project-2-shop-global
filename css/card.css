@@ -14,7 +14,7 @@
         padding: 20px;
         width: 230px;
         height: auto;
-        background: #F4F4F4;
+        background: #AAB8C3;
         border: 2px solid #0C2B4E;
     }
     .card-image2{
@@ -33,7 +33,7 @@
     display: flex;
     align-items: center;
     gap: 8px; 
-    background-color: #89da75; 
+    background-color: #1A3D64; 
     border: none;
     border-radius: 8px;
     padding: 10px 20px;
@@ -46,11 +46,7 @@
     .description{
         color:#1D546C;
     }
-   .buy-button img {
-    width: 28px;
-    height: auto;
-    margin-right: 8px;
-    }
+  
 
     .buy-button:hover {
         background-color: #61ae4f;
