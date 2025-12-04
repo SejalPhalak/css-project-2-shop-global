@@ -171,7 +171,25 @@
      margin: 10px 20px;
  }
 
+.Main-card-title-2{
+     background-color:#184880;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 1px;  
+    width: 1250px;
 
+}
+
+.Main-card-title-3{
+   background-color:#184880;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 1px;  
+    width: 1250px;
+  
+}
 
  
  
