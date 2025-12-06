@@ -57,10 +57,11 @@
      padding: 5px;
      margin-top: 0px;
  }
- .links-text{
-    color: black;
-    font-size: larger;
-    cursor: pointer;
+
+ .links-text {
+     color: black;
+     font-size: larger;
+     cursor: pointer;
  }
 
  .card-image1 {
@@ -68,14 +69,15 @@
      height: auto;
      border-radius: 80px 80px 10px 10px;
  }
-.title{
-    background-color:#184880;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    padding: 1px;
 
-}
+ .title {
+     background-color: #184880;
+     text-align: center;
+     justify-content: center;
+     color: white;
+     padding: 1px;
+ }
+
  .crad-contanor {
      display: flex;
      flex-wrap: wrap;
@@ -102,11 +104,11 @@
      height: 200px;
      border-radius: 20px;
      border: 2px solid #0C2B4E;
-     
+
  }
- .btn-buy{
-    color: white;
-    
+
+ .btn-buy {
+     color: white;
  }
 
  .card-name {
