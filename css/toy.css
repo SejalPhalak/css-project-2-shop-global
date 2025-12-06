@@ -64,10 +64,14 @@
  .card-image {
      width: 90px;
      height: 90px;
-     border-radius: 10px 10px 0px 0px;
-     
+     border-radius: 10px 10px 0px 0px;   
  }
 
+ .card-image1 {
+     width: 100%;
+     height: auto;
+     border-radius: 80px 80px 10px 10px;
+ }
  .buy-button-1 {
      text-align: center;
      background-color: #1A3D64;
@@ -87,26 +91,21 @@
  }
 
  .title {
-     background-color: #184880;
-     text-align: center;
-     justify-content: center;
-     color: white;
-     padding: 1px;
- }
+    background-color:#184880;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 1px;
+    width: 100%;  
+}
 
  .links-text {
      color: black;
      font-size: larger;
      cursor: pointer;
  }
-
- .card-image1 {
-     width: 100%;
-     height: auto;
-     border-radius: 80px 80px 10px 10px;
- }
-
- .crad-contanor {
+ 
+ .card-container {
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
