@@ -62,17 +62,9 @@
  }
 
  .card-image {
-     width: 60%;
-     height: auto;
-     border-radius: 10px 10px 0px 0px;
-     padding: 5px;
-     margin-top: 0px;
- }
-
- .links-text {
-     color: black;
-     font-size: larger;
-     cursor: pointer;
+     width: 90px;
+     height: 90px;
+     border-radius: 10px 10px 0px 0px;   
  }
 
  .card-image1 {
@@ -80,8 +72,40 @@
      height: auto;
      border-radius: 80px 80px 10px 10px;
  }
+ .buy-button-1 {
+     text-align: center;
+     background-color: #1A3D64;
+     color: white;
+     font-size: 14px;
+     border-radius: 10px 10px 10px 10px;
+     padding: 10px 20px;
+     border: none;
+     font-weight: bold;
+     margin-bottom: 10px;
+     cursor: pointer;
+ }
 
- .crad-contanor {
+ .buy-button-1:hover {
+     background-color: #61ae4f;
+     transform: scale(1.05);
+ }
+
+ .title {
+    background-color:#184880;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 1px;
+    width: 100%;  
+}
+
+ .links-text {
+     color: black;
+     font-size: larger;
+     cursor: pointer;
+ }
+ 
+ .card-container {
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
