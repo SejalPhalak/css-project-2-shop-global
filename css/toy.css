@@ -106,12 +106,6 @@
      cursor: pointer;
  }
 
- .card-image1 {
-     width: 100%;
-     height: auto;
-     border-radius: 80px 80px 10px 10px;
- }
-
  .crad-contanor {
      display: flex;
      flex-wrap: wrap;
@@ -138,6 +132,15 @@
      height: 200px;
      border-radius: 20px;
      border: 2px solid #0C2B4E;
+ }
+
+ 
+ .card-image2:hover {
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     transform: translateY(-5px);
+     transition: all 0.3s ease;
+     width: 205px;
+     height: 205px;
  }
 
  .card-name {
@@ -187,14 +190,6 @@
      color: white;
      transition: all 0.3s ease;
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
- }
-
- .card-image2:hover {
-     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-     transform: translateY(-5px);
-     transition: all 0.3s ease;
-     width: 205px;
-     height: 205px;
  }
 
  .price {
