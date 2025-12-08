@@ -261,3 +261,16 @@
     background-color: #61ae4f;
 }
 
+@media (max-width: 480px) {
+    .video-card {
+        width: 100%;
+        padding: 10px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .video-card video {
+        width: 100%;
+        height: auto;
+    }
+}
